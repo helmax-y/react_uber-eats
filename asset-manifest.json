@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/react_uber-eats/static/css/main.dc19ec77.chunk.css",
-    "main.js": "/react_uber-eats/static/js/main.a681f7cc.chunk.js",
-    "main.js.map": "/react_uber-eats/static/js/main.a681f7cc.chunk.js.map",
+    "main.css": "/react_uber-eats/static/css/main.173b16bb.chunk.css",
+    "main.js": "/react_uber-eats/static/js/main.ffa2dbfc.chunk.js",
+    "main.js.map": "/react_uber-eats/static/js/main.ffa2dbfc.chunk.js.map",
     "runtime~main.js": "/react_uber-eats/static/js/runtime~main.bef14170.js",
     "runtime~main.js.map": "/react_uber-eats/static/js/runtime~main.bef14170.js.map",
-    "static/js/2.91f30800.chunk.js": "/react_uber-eats/static/js/2.91f30800.chunk.js",
-    "static/js/2.91f30800.chunk.js.map": "/react_uber-eats/static/js/2.91f30800.chunk.js.map",
+    "static/js/2.cf65a1ad.chunk.js": "/react_uber-eats/static/js/2.cf65a1ad.chunk.js",
+    "static/js/2.cf65a1ad.chunk.js.map": "/react_uber-eats/static/js/2.cf65a1ad.chunk.js.map",
     "index.html": "/react_uber-eats/index.html",
-    "precache-manifest.bb400d4e2601261caddaf2f154d5e3e3.js": "/react_uber-eats/precache-manifest.bb400d4e2601261caddaf2f154d5e3e3.js",
+    "precache-manifest.ebc8cb0cf2b1c5eb88ae583ee745430d.js": "/react_uber-eats/precache-manifest.ebc8cb0cf2b1c5eb88ae583ee745430d.js",
     "service-worker.js": "/react_uber-eats/service-worker.js",
-    "static/css/main.dc19ec77.chunk.css.map": "/react_uber-eats/static/css/main.dc19ec77.chunk.css.map"
+    "static/css/main.173b16bb.chunk.css.map": "/react_uber-eats/static/css/main.173b16bb.chunk.css.map",
+    "static/media/Header.scss": "/react_uber-eats/static/media/time.3eb2628c.svg",
+    "static/media/app-store.svg": "/react_uber-eats/static/media/app-store.9c13baa6.svg",
+    "static/media/footer.scss": "/react_uber-eats/static/media/language.e450c793.svg",
+    "static/media/social.scss": "/react_uber-eats/static/media/twitter.b04b2c7f.svg",
+    "static/media/google-play.svg": "/react_uber-eats/static/media/google-play.5576713f.svg",
+    "static/media/logo-black.svg": "/react_uber-eats/static/media/logo-black.74489cfb.svg",
+    "static/media/logo-white.svg": "/react_uber-eats/static/media/logo-white.899ed16b.svg"
   }
 }
