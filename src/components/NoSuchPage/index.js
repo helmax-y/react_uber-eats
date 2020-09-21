@@ -4,23 +4,20 @@ import { Link } from 'react-router-dom';
 
 import './no-such-page.scss';
 
-const NoSuchPage = ({ info }) => (
+const NoSuchPage = ({ info = '' }) => (
   <div className="no-such-page">
     <p className="no-such-page__p">
-      {info || (
-      <>
-Oh...
-        <br />
-Seems that you reached the end of the Internet
-      </>
-      )}
+      {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
+      {info || <>Oh...<br />Seems that you reached the end of the Internet</>}
     </p>
     <Link className="no-such-page__button" to="/">To main page</Link>
   </div>
 );
 
 NoSuchPage.propTypes = {
-  info: PropTypes.bool.isRequired,
+  /* eslint-disable react/require-default-props */
+  info: PropTypes.string,
+  /* eslint-enable react/require-default-props */
 };
 
 export default NoSuchPage;
