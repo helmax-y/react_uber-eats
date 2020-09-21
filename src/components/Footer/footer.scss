@@ -1,0 +1,192 @@
+$bc-color: #262626;
+
+.footer {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 65px 4% 90px;
+
+  &__top {
+    display: flex;
+  }
+
+  &__top-left {
+    width: 50%;
+  }
+
+  &__logo-select {
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px;
+  }
+
+  &__select {
+    appearance: none;
+    width: 164px;
+    height: 40px;
+    margin-left: 40px;
+    padding-left: 40px;
+
+    color: #fff;
+    font-size: 16px;
+
+    background-color: $bc-color;
+    background-image: url("./pics/language.svg"), url("./pics/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: top 8px left 10px, top 16px right 10px;
+    border: 1px solid #979797;
+    border-radius: 0;
+    outline: none;
+
+    cursor: pointer;
+  }
+
+  &__stores {
+
+    &--gp {
+      margin-left: 20px;
+    }
+  }
+
+  &__top-right-nav {
+    margin-left: 135px;
+  }
+
+  &__nav-li {
+    margin-bottom: 16px;
+
+    &--last {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    color: #fff;
+    line-height: 19px;
+  }
+
+  &__hr {
+    margin: 40px 0;
+    border: 1px solid #c4c4c4;
+  }
+
+  &__copyright-nav {
+    display: flex;
+  }
+
+  &__bottom-nav {
+    display: flex;
+    margin-bottom: 56px;
+  }
+
+  &__bottom-nav-li {
+    margin-right: 48px;
+  }
+
+  &__copyright {
+    width: 50%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &__social {
+    margin-left: 50%;
+
+    @media screen and (max-width: 1050px) {
+      & {
+        margin-left: 0;
+      }
+    }
+  }
+
+  &__totop {
+    display: none;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    border-radius: 2px;
+    background: #59bd5a url("./pics/arrow-totop.svg") no-repeat center;
+
+    &:hover {
+      background-color: #48ac49;
+    }
+
+    @media screen and (max-width: 860px) {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 860px) {
+    padding-bottom: 65px;
+
+    &__top {
+      flex-direction: column;
+    }
+
+    &__top-left {
+      width: max-content;
+    }
+
+    &__logo-select {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 40px;
+    }
+
+    &__select {
+      margin-top: 40px;
+      margin-left: 0;
+    }
+
+    &__stores {
+      margin-bottom: 40px;
+    }
+
+    &__top-right-nav {
+      margin-top: 16px;
+      margin-left: 0;
+    }
+
+    &__hr {
+      display: none;
+    }
+
+    &__bottom {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    &__copyright-nav {
+      flex-direction: column;
+    }
+
+    &__social {
+      order: -1;
+      margin-top: 33px;
+    }
+
+    &__bottom-nav {
+      flex-direction: column;
+      margin-top: 16px;
+      margin-bottom: 0;
+    }
+
+    &__bottom-nav-li {
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+
+    &__link--bottom {
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    &__copyright {
+      width: max-content;
+      margin-top: 40px;
+    }
+  }
+}
