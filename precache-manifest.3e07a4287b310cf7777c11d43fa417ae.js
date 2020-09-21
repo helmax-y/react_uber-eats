@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8ffcd3a9c50692800d62994938fe9f9",
+    "revision": "039a60ca154b2c9f77d142d5223cf516",
     "url": "/react_uber-eats/index.html"
   },
   {
-    "revision": "0ec4c4f9f73fb2fd295e",
-    "url": "/react_uber-eats/static/css/main.14613dbf.chunk.css"
+    "revision": "183e0678951432435897",
+    "url": "/react_uber-eats/static/css/main.29bbaf1f.chunk.css"
   },
   {
-    "revision": "6e1f14fb94bb674b35ed",
-    "url": "/react_uber-eats/static/js/2.b7915327.chunk.js"
+    "revision": "ca20e1e80951fc4f9f85",
+    "url": "/react_uber-eats/static/js/2.78e57f21.chunk.js"
   },
   {
-    "revision": "0ec4c4f9f73fb2fd295e",
-    "url": "/react_uber-eats/static/js/main.f1cac224.chunk.js"
+    "revision": "183e0678951432435897",
+    "url": "/react_uber-eats/static/js/main.08b2bf6a.chunk.js"
   },
   {
     "revision": "183d5977488a46d51899",
@@ -36,10 +36,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_uber-eats/static/media/arrow.33158048.svg"
   },
   {
-    "revision": "a594ab6047fb39e46b538aa2f6e8f160",
-    "url": "/react_uber-eats/static/media/close-icon.a594ab60.svg"
-  },
-  {
     "revision": "88ec07c906bd1c18a648da26b8b06f16",
     "url": "/react_uber-eats/static/media/facebook.88ec07c9.svg"
   },
@@ -56,20 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_uber-eats/static/media/language.e450c793.svg"
   },
   {
-    "revision": "74489cfb3c3b534adce09d98c52905e1",
-    "url": "/react_uber-eats/static/media/logo-black.74489cfb.svg"
-  },
-  {
     "revision": "899ed16b5eeaf332e97bb9adf3ddb738",
     "url": "/react_uber-eats/static/media/logo-white.899ed16b.svg"
   },
   {
-    "revision": "d4cd7e36f140e2dc4405377b4b486a0e",
-    "url": "/react_uber-eats/static/media/query.d4cd7e36.svg"
+    "revision": "74489cfb3c3b534adce09d98c52905e1",
+    "url": "/react_uber-eats/static/media/logoBlack.74489cfb.svg"
   },
   {
-    "revision": "3eb2628cb5f0c591f71ec29e2e0f18ba",
-    "url": "/react_uber-eats/static/media/time.3eb2628c.svg"
+    "revision": "d4cd7e36f140e2dc4405377b4b486a0e",
+    "url": "/react_uber-eats/static/media/query.d4cd7e36.svg"
   },
   {
     "revision": "b04b2c7f273d1f4db9f01fa433944d00",
